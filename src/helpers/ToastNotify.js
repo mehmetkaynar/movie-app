@@ -1,5 +1,4 @@
 import { toast } from "react-toastify";
-
 export const toastWarnNotify = (msg) => {
   toast.warn(msg, {
     autoClose: 5000,
