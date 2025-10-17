@@ -38,11 +38,11 @@ MOVIE-APP/
 │   │   └── firebase.js
 │   ├── components/
 │   │   ├── MovieCard.jsx
-│   │   └── Navbar.jsx
+│   │   ├── Navbar.jsx
 |   |   ├── Switch.jsx
 │   │   └── VideoSection.jsx
 │   ├── context/
-│   │   └── AuthContext.js
+│   │   ├── AuthContext.js
 |   |   └── MovieContext.js     
 │   ├── helpers/
 │   │   └── ToastNotify.js 
@@ -52,7 +52,7 @@ MOVIE-APP/
 │   │   ├── Main.jsx
 │   │   └── MovieDetail.jsx
 │   ├── router/
-│   │   └── AppRouter.jsx
+|   │   ├── AppRouter.jsx
 │   │   └── PrivateRouter.jsx
 │   ├── App.js
 │   ├── App.css
@@ -65,7 +65,7 @@ MOVIE-APP/
 
 
 ## 🔑 Environment Variables
-
+```
 REACT_APP_FIREBASE_API_KEY=your_api_key
 REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
 REACT_APP_FIREBASE_PROJECT_ID=your_project_id
@@ -75,7 +75,7 @@ REACT_APP_FIREBASE_APP_ID=your_app_id
 
 REACT_APP_TMDB_API_KEY=your_tmdb_api_key
 
-
+```
 
 ## 🧠 What I Learned
 
@@ -86,3 +86,9 @@ Handling API requests and displaying dynamic movie data
 Implementing protected routes with React Router
 
 Managing global authentication state using Context API
+
+## 👨‍💻 Author
+
+Mehmet Kaynar
+ • [GitHub](https://github.com/mehmetkaynar)
+ • [LinkedIn](https://www.linkedin.com/in/kaynarmehmet/)
